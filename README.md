@@ -1,17 +1,17 @@
 # scrape_platzi_courses
 _This is a script that obtains detailed information on Platzi courses, the query is made by career or school._
 
-_Los datos que se obtienen son:_
+_The data obtained are:_
 * **General_Info:** Route_Name, Title, Level, Course, Link.
-* **Platos:** app, restaurante, imagen, categoria, producto, descripcion, precio.
+* **Detailed_Courses:** Course, Teacher, Hours of study, Hours of practice, Quantity of classes, Avg min/class, Link.
 
-_Este proyecto no es un api, es un ejecutable python._
+_This project is not an api, it is a python executable._
 
-## Comenzando 🚀
-_Para poder usar el script debes descargarlo en tu entorno local, puedes descargarlo como zip, para hacerlo más sencillo._
+## Starting 🚀
+_To be able to use the script you must download it in your local environment, you can download it as a zip, to make it easier._
 
-### Pre-requisitos 📋
-_Si no programas constantemente tal vez tengas que instalar las siguientes librerias, si ya las tienes saltate este paso._
+### Pre-requirements 📋
+_If you don't program constantly you may have to install the following libraries, if you already have them skip this step._
 
 _requests_
 ```
@@ -25,7 +25,7 @@ _pandas_
 ```
 pip install pandas
 ```
-_openpyxl - Esta libreria es necesaria para usar pandas_
+_openpyxl - This library is necessary to use pandas_
 ```
 pip install openpyxl
 ```
@@ -35,29 +35,21 @@ pip install cloudscraper
 ```
 
 
-### Ejecución 🔧
-_Ahora que ya tienes instaladas todas las librerias necesarias, podemos proceder a la ejecución del script._
+### Execution 🔧
+_Now that you have all the necessary libraries installed, we can proceed to execute the script._
 
-_1. Abre la consola de comandos, ubica la carpeta donde descargaste el proyecto_
+_1. Open the command console, locate the folder where you downloaded the project_
 
-_2. Ejecuta el script_
+_2. Run the script_
 
 ```
 python main.py
 ```
 
-_3. Escribe los datos necesarios que te pida el script_
+_3. Write the necessary data requested by the script_
 
-_4. Revisa la carpeta donde descargaste el script y verás el archivo excel con los datos._
+_4. Check the folder where you downloaded the script and you will see the excel file with the data._
 
-## Autor ✒️
-
-* **Diego Medina** - [diegomedflo](https://github.com/diegomedflo)
-
-# Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
+## Author ✒️
 
 ⌨️ con ❤️ por [diegomedflo](https://github.com/diegomedflo) 😊
