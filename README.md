@@ -1,5 +1,5 @@
 # scrape_platzi_courses
-_This is a script that obtains detailed information on Platzi courses, the query is made by career or school._
+_This is a script that obtains detailed information of Platzi courses, the query is made by career or school._
 
 _The data obtained are:_
 * **General_Info:** Route_Name, Title, Level, Course, Link.
