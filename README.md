@@ -53,3 +53,5 @@ _4. Check the folder where you downloaded the script and you will see the excel 
 ## Author ✒️
 
 ⌨️ con ❤️ por [diegomedflo](https://github.com/diegomedflo) 😊
+
+Note: Since Platzi has a couldfare captcha, the library cloudscraper tries to scrape the website anyway, but sometimes it gives an error, you just have execute the code again until it works.
