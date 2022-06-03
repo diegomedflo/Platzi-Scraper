@@ -30,7 +30,7 @@ while attempt <= 5:
             'Link': []
         }
         route_name = s.find('div', attrs={'class': 'Hero-route-title'}).get_text()
-        route_name_to_excel = route_name.lower().replace(' ', '_')
+        route_name_to_excel = route_name.lower().replace('.', '_').replace(' ', '_')
         for route in routes_list:
             title = route.find('h3', attrs={'class': 'RoutesList-title'}).get_text()
             level = route.find('div', attrs={'class': 'RoutesList-level'}).find('span').get_text()
