@@ -6,10 +6,11 @@ import pandas as pd
 import cloudscraper
 import json
 
-#  Get the response of a carrer or school
-#  This code will try 5 time to requests the URL, this is because sometime the cloudscraper library returns an error
+#  Get the response of a carrer or school.
+#  This code will try 5 time to requests the URL, this is because sometime the cloudscraper library returns an error.
 url = input('Ingrese la URL de la Carrera o Escuela:')
 print('URL:', url)
+
 attempt = 1
 while attempt <= 5:
     try:
@@ -17,7 +18,7 @@ while attempt <= 5:
         r = scraper.get(url)
         s = BeautifulSoup(r.text, 'lxml')
         #  Start getting the info
-        print('Obteniendo los siguientes datos de la ruta: Titulo de etapa, Nivel, Nombre del curso y link del curso...')
+        print('Obteniendo los siguientes datos de la ruta: Titulo de etapa, Nivel, Nombre del curso y link del curso ...')
         routes_content = s.find('div', attrs={'class': 'RoutesContent-content'})
         routes_list = routes_content.find_all('div', attrs={'class': 'RoutesList'})
         Dic_Route = {
@@ -119,5 +120,5 @@ while attempt <= 5:
         break
     except Exception as err:
         if attempt == 5:
-            print(f'Error requesting information from the server. Please try again. Error: {err}')
+            print(f'Error obteniendo información del servidor. Por favor intente de nuevo. Error: {err}')
     attempt += 1
