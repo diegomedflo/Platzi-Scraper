@@ -8,6 +8,7 @@ import json
 
 #  Get the response of a carrer or school.
 #  This code will try 5 time to requests the URL, this is because sometime the cloudscraper library returns an error.
+print('Busca las escuela en: https://platzi.com/cursos/')
 url = input('Ingrese la URL de la Carrera o Escuela:')
 print('URL:', url)
 
