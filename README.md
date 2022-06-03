@@ -50,9 +50,6 @@ _3. Write the necessary data requested by the script_
 
 _4. Check the folder where you downloaded the script and you will see the excel file with the data._
 
-### Download all courses - platzi_course_analysis
-_You may came from [platzi_course_analysis](https://github.com/diegomedflo/platzi_course_analysis), in this case you have to download the Notebook named **ExtractionDataPlatzi** and execute it in a Jupyter Notebook._
-
 
 ## Author ✒️
 
