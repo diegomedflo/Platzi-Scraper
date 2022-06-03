@@ -1,4 +1,4 @@
-# scrape_platzi_courses
+# Platzi-Scraper
 _This is a script that obtains detailed information of Platzi courses, the query is made by career or school._
 
 _The data obtained are:_
