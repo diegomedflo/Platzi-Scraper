@@ -1,6 +1,5 @@
 #  Required libraries
 import requests
-import funcs
 from bs4 import BeautifulSoup
 import pandas as pd
 import cloudscraper
